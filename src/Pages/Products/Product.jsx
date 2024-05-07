@@ -241,7 +241,7 @@ const SingleProduct = () => {
                       className="addToStore"
                       position="absolute"
                       variant="#0f847e"
-                      bg="#0f847e"
+                      bg="#23587F"
                       color="white"
                       fontWeight="700"
                       fontSize="16px"
@@ -252,13 +252,13 @@ const SingleProduct = () => {
                       // transition="all 0.4s ease"
                       placeholder="Add to Cart"
                       onClick ={()=>addCartHandler(product)}
-                      // _hover={{ bg: "#0a5855", transition: "all 0.4s ease" }}
+                      _hover={{ bg: "#1b4360", transition: "all 0.4s ease" }}
                     >
                       Add to Cart
                     </Button>
                   </Box>
                 </Flex>
-                {/* <Box textAlign="left" py="30px" color="#4f585e">
+                <Box textAlign="left" py="30px" color="#4f585e">
                 <Text fontSize="16px" fontWeight="700" py="10px">
                   Description
                 </Text>
@@ -270,7 +270,7 @@ const SingleProduct = () => {
                 >
                   Dettol is a brand of cleaning supplies and sanitiser and sterile, presented in 1932 and the producer claimed by the Anglo-Dutch organization Reckitt Benckiser. In Germany, it is sold under the name Sagrotan. Preceding 2002, some Dettol items were marked Detox. Dettol Antiseptic Liquid is a comprehensive use item utilized for security against germs that has been suggested by clinical experts and trusted by moms. Dettol Antiseptic Liquid eliminates germs from skin, shields from contaminations brought about by cuts and scratches and can likewise be utilized as a family sanitiser on home surfaces and in clothing
                 </Text>
-              </Box> */}
+              </Box>
 
               </Box>
             }
@@ -286,7 +286,7 @@ const SingleProduct = () => {
                 <Button
                   className="viewCart"
                   variant="#0f847e"
-                  bg="#0f847e"
+                  bg="#23587F"
                   color="white"
                   fontWeight="700"
                   h="3rem"
@@ -296,7 +296,7 @@ const SingleProduct = () => {
                   w="100%"
                   display="flex"
                   align="center"
-                  _hover={{ bg: "#075854", transition: "all 0.4s ease" }}
+                  _hover={{ bg: "#1b4360", transition: "all 0.4s ease" }}
                 >
                   View Cart <BiChevronRight fontSize="25px" />
                 </Button>
@@ -305,7 +305,7 @@ const SingleProduct = () => {
             <Box
               className="offers"
               marginY="50px"
-              border="1px dashed pink"
+              border="1.5px dashed #1b4360"
               borderRadius="5px"
               p="15px"
             >
@@ -316,7 +316,7 @@ const SingleProduct = () => {
                 <Text
                   fontSize="12px"
                   fontWeight="700"
-                  color="#0f847e"
+                  color="#23587F"
                   cursor="pointer"
                 >
                   View All
@@ -329,11 +329,11 @@ const SingleProduct = () => {
                 gap="10px"
                 mb="10px"
               >
-                <Image
+                {/* <Image
                   src="https://cms-contents.pharmeasy.in/offer/ea20b1fcb6c-11.jpg"
                   h={7}
                   w={7}
-                />
+                /> */}
                 <Text size={10}>Get Flat Rs. 150 instant discount on HDFC Bank Cards </Text>
               </Flex>
               <Flex

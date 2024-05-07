@@ -26,7 +26,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
       150px 150px at 95% 0%,
       rgba(253, 186, 43, 0.3) 0%,
       rgba(253, 186, 43, 0) 100%
@@ -35,5 +35,6 @@
       150px 150px at 5% 0%,
       rgba(120, 213, 242, 0.3) 0%,
       rgba(253, 186, 43, 0) 100%
-    );
+    ); */
+    /* background-color: brown; */
 }

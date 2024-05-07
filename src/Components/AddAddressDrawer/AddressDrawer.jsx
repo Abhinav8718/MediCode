@@ -45,8 +45,8 @@ const AddressDrawer = () => {
         //   className={styles.addAddressButton}
         width="354px"
         height="45px"
-        backgroundColor="#10847e"
-        border="1px solid #10847e"
+        backgroundColor="#23587F"
+        border="1px solid #23587F"
         fontWeight="700"
         fontSize="16px"
         fontFamily='"Open Sans", sans-serif'
@@ -61,14 +61,14 @@ const AddressDrawer = () => {
         //   className={styles.addAddressButton}
         width="354px"
         height="45px"
-        backgroundColor="#10847e"
-        border="1px solid #10847e"
+        backgroundColor="#23587F"
+        border="1px solid #23587F"
         fontWeight="700"
         fontSize="16px"
         fontFamily='"Open Sans", sans-serif'
         marginTop="25px"
         color="white"
-        _hover={{ bg: "#0c6964" }}
+        _hover={{ bg: "#1b4360" }}
         onClick={()=>navigate('/payment')}
       >
        Buy Now

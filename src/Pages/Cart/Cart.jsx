@@ -1,15 +1,17 @@
 import React, { useState } from "react";
-import CartItem from "../../Components/CartItem";
+import CartItem from "../../Components/CartItem.jsx";
 import styles from "./cart.module.css";
 import CartSwiper from "../../Components/CartSwiper.jsx";
-import { Button, Flex } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import ChevronRight from "@mui/icons-material/ChevronRight";
 import Box from "@mui/material/Box";
 import { HiCurrencyRupee } from "react-icons/hi";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import AddressDrawer from "../../Components/AddAddressDrawer/AddressDrawer";
+import AddressDrawer from "../../Components/AddAddressDrawer/AddressDrawer.jsx";
 import { useEffect } from "react";
+
+
+
 
 const Cart = () => {
   const [data, setdata] = useState(
@@ -119,7 +121,7 @@ const Cart = () => {
                 width="360px"
                 backgroundColor="azure"
                 height="80px"
-                color="#10847e"
+                color="#23587F"
                 border="1px solid #f1f1f1"
                 fontWeight="400"
                 fontSize="14px"
@@ -140,8 +142,9 @@ const Cart = () => {
                   top="-20%"
                   mt="0"
                   ml="20px"
-                  color="purple"
-                  _hover={{bg: "transparent"}}
+                  color="#1b4360"
+                  _hover={{bg: "white"}}
+                  
                 >
                   Change
                 </Button>
@@ -153,23 +156,25 @@ const Cart = () => {
               rightIcon={<ChevronRight />}
               width="354px"
               height="45px"
-              color="#10847e"
-              border="1px solid #10847e"
+              color="#23587F"
+              border="2px solid #23587F"
               fontWeight="700"
               fontSize="16px"
               fontFamily='"Open Sans", sans-serif'
             >
               Apply Coupon / View Offers
             </Button>
+
             <AddressDrawer />
+            
             <Box
               variant="outlined"
               className={styles.addAddressButton}
               sx={{
                 width: "354px",
-                color: "#3bb896",
+                color: "#23587F",
                 height: "45px",
-                border: "2px dotted #3bb896",
+                border: "2px dotted #23587F",
                 fontWeight: "700",
                 fontSize: "15px",
                 fontFamily: '"Open Sans", sans-serif',
@@ -287,7 +292,7 @@ const Cart = () => {
               </div>
             </div>
           </div>
-          <div className={styles.saveOfferWrapper}>
+          {/* <div className={styles.saveOfferWrapper}>
             <div className={styles.saveheading}>
               <div>Save ₹49.00 more on this order</div>
               <div>
@@ -316,8 +321,8 @@ const Cart = () => {
             <div className={styles.moreBenefits}>
               View More Benefits <MdOutlineKeyboardArrowRight fontSize="20px" />
             </div>
-          </div>
-          <div className={styles.assuranceWrapper}>
+          </div> */}
+          {/* <div className={styles.assuranceWrapper}>
             <img
               src="https://assets.pharmeasy.in/web-assets/dist/0c22e009.svg?dim=0x32&dpr=1.25&q=100"
               alt="assureimage"
@@ -326,7 +331,7 @@ const Cart = () => {
               Products will be safely packed & Sanitized. Pay online for
               contactless delivery
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <hr className={styles.seperator} />
@@ -377,7 +382,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <hr className={styles.seperator} />
+      {/* 1<hr className={styles.seperator} />
       <div className={styles.appPromotionWrapper}>
         <img
           src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg"
@@ -413,7 +418,7 @@ const Cart = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

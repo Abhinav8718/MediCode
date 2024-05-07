@@ -94,7 +94,7 @@ const Products = () => {
           </Breadcrumb>
         </div>
         <Stack direction="horizontal" gap="50px">
-          <Stack width="25%" textAlign="left">
+          {/* <Stack width="25%" textAlign="left">
             <Heading fontSize="26px" fontWeight="600" marginBottom="40px">
               Filter
             </Heading>
@@ -195,8 +195,8 @@ const Products = () => {
               </Text>
               <Checkbox colorScheme="teal" size="lg" />
             </Stack>
-          </Stack>
-          <Stack width="75%">
+          </Stack> */}
+          <Stack width="100%">
             <Stack
               direction="horizontal"
               marginBottom="40px"
@@ -206,7 +206,7 @@ const Products = () => {
               <Heading fontSize="26px" fontWeight="600">
                 {category.toUpperCase()}
               </Heading>
-              <Stack direction="horizontal" gap="40px" align="center">
+              {/* <Stack direction="horizontal" gap="40px" align="center">
                 <Text fontSize="14px" width="60px">
                   Sort By:
                 </Text>
@@ -215,7 +215,7 @@ const Products = () => {
                   <option value="asc">Price Low to High</option>
                   <option value="des">Price High to Low</option>
                 </Select>
-              </Stack>
+              </Stack> */}
             </Stack>
             {loading ? (
               <Box

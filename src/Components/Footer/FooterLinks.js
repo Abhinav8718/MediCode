@@ -8,12 +8,6 @@ export const Company=[
     {
         link:"Blog",
     },
-    {
-        link:"Partner with PharmEasy",
-    },
-    {
-        link:"Sell at PharmEasy",
-    }
 ]
 
 export const OurServices=[

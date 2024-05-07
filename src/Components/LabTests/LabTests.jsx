@@ -11,8 +11,8 @@ const data = [
     desc: "Measures your blood sugar levels after last meal",
     oldPrice: "₹500",
     newPrice: "₹199",
-    bg: "#f1fafe",
-    image: "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/37ebeeb109543b779c568444f7ce84be.png?dim=96x0",
+    bg: "#daedf4",
+    // image: "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/37ebeeb109543b779c568444f7ce84be.png?dim=96x0",
   },
   {
     off: "64% OFF",
@@ -22,7 +22,7 @@ const data = [
     desc: "Measures Vitamin D & B12 levels and other essential parametersl",
     oldPrice: "₹4199",
     newPrice: "₹1499",
-    bg: "#fdf7e8",
+    bg: "#daedf4",
     image: "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/01abb07c5b233f90b2cd0b64a7ebccee.png?dim=96x0",
   },
   {
@@ -33,7 +33,7 @@ const data = [
     desc: "Gives avg. sugar levels of 3 months to monitor diabetes",
     oldPrice: "₹600",
     newPrice: "₹399",
-    bg: "#f1fafe",
+    bg: "#daedf4",
     image: "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/7e6ed82a2c373d1db2ea81a09e2fbb4c.png?dim=96x0",
   },
   {
@@ -44,7 +44,7 @@ const data = [
     desc: "Measures Vitamins, Arthritis & Cancer screening and other essential parameters",
     oldPrice: "₹4990",
     newPrice: "₹1999",
-    bg: "#fdf7e8",
+    bg: "#daedf4",
     image: "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/37ebeeb109543b779c568444f7ce84be.png?dim=96x0",
   },
 //   {
@@ -116,14 +116,14 @@ const LabTests = () => {
                 <Heading fontSize="22px" position="absolute" bottom="20px">
                   {el.newPrice}
                 </Heading>
-                <Image
+                {/* <Image
                   width="96px"
                   height="96px"
                   src={el.image}
                   marginLeft="211px"
                   position="absolute"
                   bottom="0px"
-                />
+                /> */}
               </Stack>
             </Stack>
           </Box>

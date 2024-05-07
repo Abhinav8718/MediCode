@@ -22,24 +22,10 @@ const data = [
   {
     icon: <FcHome style={{ width: "40px", height: "40px" }} />,
     para: "Login to View Addresses",
-    color: "#37857e",
+    color: "#23587F",
     bg: "white",
     weight: "700",
     border: "#f5f5f5",
-  },
-  {
-    icon: <FcShipped style={{ width: "40px", height: "40px" }} />,
-    para: "Serving more than 1,000 towns and cities in India.",
-    color: "black",
-    bg: "#eff4fe",
-    border: "#eff4fe",
-  },
-  {
-    icon: <FcTodoList style={{ width: "40px", height: "40px" }} />,
-    para: "Over 30,00,000 orders safely delivered",
-    color: "black",
-    bg: "#cef8fd",
-    border: "#cef8fd",
   },
 ];
 
@@ -52,8 +38,8 @@ const PincodeDrawer = () => {
   const searchCity = async () => {
     let res = await axios.get(`https://api.postalpincode.in/pincode/${pin}`);
     onClose();
-    setText(`${pin} ${res.data[0].PostOffice[0].District}`);
-    console.log(res.data[0].PostOffice[0].District);
+    setText(`${pin} ${res.data[0].PostOffice[0].Block}`);
+    console.log(res.data[0].PostOffice[0].Block);
   };
 
   return (
@@ -69,6 +55,7 @@ const PincodeDrawer = () => {
           borderTopEndRadius="none"
           borderBottomEndRadius="none"
           _hover="none"
+          fontSize='medium'
         >
           {text}
         </Button>
@@ -102,23 +89,23 @@ const PincodeDrawer = () => {
         placement="right"
         onClose={onClose}
         finalFocusRef={btnRef}
-        size="sm"
+        size="md"
       >
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton
-            marginRight="436px"
+            marginRight="500px"
             style={{
-              backgroundColor: "white",
+              backgroundColor: "#23587F",
               padding: "30px",
               border: "none",
-              color: "#767676",
+              color: "white",
               marginTop: "20px",
               borderRadius: "0px",
             }}
           />
-          <DrawerHeader className={styles.heading}>
-            Choose your <br /> Location
+          <DrawerHeader className={styles.heading} >
+            Choose your Location
           </DrawerHeader>
 
           <DrawerBody>
@@ -133,7 +120,7 @@ const PincodeDrawer = () => {
               />
               <InputRightElement height="50px" width="140px">
                 <Button
-                  bg="#37857e"
+                  bg="#23587F"
                   size="md"
                   height="50px"
                   width="140px"

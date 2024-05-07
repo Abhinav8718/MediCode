@@ -12,9 +12,9 @@ const CartSwiper = () => {
       <Swiper
         slidesPerView={3}
         spaceBetween={0}
-        // pagination={{
-        //   clickable: true,
-        // }}
+         pagination={{
+           clickable: true,
+        }}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -42,7 +42,7 @@ const CartSwiper = () => {
             <p className="actualMRP">₹30.23</p>
           </div>
           <div className="addButtonWrapper">
-            <Button colorScheme='teal' variant='outline' className="AddButton"
+            <Button color='#23587F' variant='outline' className="AddButton"
               fontSize= "16px"
               mt="8px"
               fontFamily= '"Open Sans", sans-serif'
@@ -50,6 +50,7 @@ const CartSwiper = () => {
               width= "120px"
               height= "45px"
               padding= "0 20px"
+           
             >
               Add
             </Button>
@@ -79,7 +80,7 @@ const CartSwiper = () => {
             <p className="actualMRP">₹31.23</p>
           </div>
           <div className="addButtonWrapper">
-          <Button colorScheme='teal' variant='outline' className="AddButton"
+          <Button color='#23587F' variant='outline' className="AddButton"
               fontSize= "16px"
               mt="8px"
               fontFamily= '"Open Sans", sans-serif'
@@ -116,7 +117,7 @@ const CartSwiper = () => {
             <p className="actualMRP">₹46.23</p>
           </div>
           <div className="addButtonWrapper">
-          <Button colorScheme='teal' variant='outline' className="AddButton"
+          <Button color='#23587F' variant='outline' className="AddButton"
               fontSize= "16px"
               mt="8px"
               fontFamily= '"Open Sans", sans-serif'
@@ -153,7 +154,7 @@ const CartSwiper = () => {
             <p className="actualMRP">₹902.13</p>
           </div>
           <div className="addButtonWrapper">
-          <Button colorScheme='teal' variant='outline' className="AddButton"
+          <Button color='#23587F' variant='outline' className="AddButton"
               fontSize= "16px"
               mt="8px"
               fontFamily= '"Open Sans", sans-serif'
@@ -190,7 +191,7 @@ const CartSwiper = () => {
             <p className="actualMRP">₹645.25</p>
           </div>
           <div className="addButtonWrapper">
-          <Button colorScheme='teal' variant='outline' className="AddButton"
+          <Button color='#23587F' variant='outline' className="AddButton"
               fontSize= "16px"
               mt="8px"
               fontFamily= '"Open Sans", sans-serif'

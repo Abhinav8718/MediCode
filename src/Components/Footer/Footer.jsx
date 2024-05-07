@@ -51,7 +51,7 @@ const Footer = () => {
                         <Image key={i} src={el.img} height="18px"/>
                         ))}
                     </Stack>
-                    <Text fontSize="14px">© 2022 PharmEasy. All Rights Reserved</Text>
+                    <Text fontSize="14px">© 2024 MediCode. All Rights Reserved</Text>
                 </Stack>
         </Stack>
     </div>

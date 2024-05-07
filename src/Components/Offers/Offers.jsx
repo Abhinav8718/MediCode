@@ -42,8 +42,8 @@ const Offers = () => {
 
   // if()
   return (
-    <div>
-      <div className={styles.backColor}>
+    <div >
+      <div >
         <Stack
           width={"60%"}
           margin="auto"
@@ -58,10 +58,10 @@ const Offers = () => {
               <Text fontSize={"14px"} fontWeight="500">
                 Order with prescription.
               </Text>
-              <Text fontSize={"14px"} fontWeight="700" color={"#10847E"}>
+              <Text fontSize={"14px"} fontWeight="700" color={"#23587F"}>
                 UPLOAD NOW
               </Text>
-              <MdKeyboardArrowRight fontSize={"20px"} color={"#10847E"} />
+              <MdKeyboardArrowRight fontSize={"20px"} color={"#23587F"} />
             </Flex>
           </Flex>
           <InputGroup size="lg" alignItems={"center"}>
@@ -81,7 +81,7 @@ const Offers = () => {
             <InputRightElement
               width={"100px"}
               children={
-                <Button borderRadius={"50px"} colorScheme={"teal"} width="88px">
+                <Button borderRadius={"50px"} color="#23587F" width="88px">
                   Search
                 </Button>
               }
@@ -160,7 +160,7 @@ const Offers = () => {
         <Stack
           direction="horizontal"
           justify="space-between"
-          width="95%"
+          width="75%"
           margin="auto"
         >
           {OffersData.map((item, i) => (

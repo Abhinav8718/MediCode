@@ -1,14 +1,14 @@
 export const BrandsData = [
     {
-        img:"https://cms-contents.pharmeasy.in/carousel_item/e642f1b8237-Glucon_D.jpg?dim=1440x0",
+        img:"https://i.postimg.cc/P53TLpRK/glucond.jpg",
         heading:"Glucon-D"
     },
     {
-        img:"https://cms-contents.pharmeasy.in/carousel_item/3eb4eb6bfbe-App_Himalaya.jpg?dim=1440x0",
+        img:"https://i.postimg.cc/XvtWLM3C/himalya.png",
         heading:"Himalaya"
     },
     {
-        img:"https://cms-contents.pharmeasy.in/carousel_item/1466c422fcd-Sugerfree.png?dim=1440x0",
+        img:"https://i.postimg.cc/GpTwHMYh/sugarfree.png",
         heading:"Sugerfree"
     },
     {

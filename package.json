@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
     "concurrently": "^7.4.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
@@ -26,11 +27,11 @@
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
-    "swiper": "^8.4.2",
     "react-slick": "^0.29.0",
     "styled-components": "^5.3.6",
     "swiper": "^8.4.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "zod": "^3.23.6"
   },
   "scripts": {
     "start": "concurrently --kill-others \"react-scripts start\" \"cd src/server/ && nodemon index.js\"",
@@ -55,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
